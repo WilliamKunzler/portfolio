@@ -1,17 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css">
     <title>portFolio</title>
 </head>
 <body>
 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about" class="links-nav">About me</a></li>
+                <li><a href="#skills" class="links-nav">Skills</a></li>
+                <li><a href="#" class="links-nav">Projects</a></li>
+                <li><a href="#" class="links-nav">Contacts</a></li>
+            </ul>
+        </nav>
+        <div class="container-banner">
+            <div class="banner-info" >
+                <div id="about-section">
+                    <div class="im">
+                        <div class="line-im"></div>
+                        <h4>HELLO, I' M</h4>
+                    </div>
+                    <h1 id="name-banner">William!</h1>
+                    <h1>Front-end Developer</h1>
+                    <p>Lorem, ipsum dolor sit ametndi voluptas optio iisquam, quidem accusamus!</p>
+                    <div class="contact-links">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-github"></ion-icon>
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="banner-info" >
+                <img src="images/bannerImage.png" alt="" class="imageBanner" >
+            </div>
+            <div class="full-shadow-green"></div>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="about" >
+            <h4 >ABOUT ME</h4>
+            <h1>A Little Bio About Me</h1>
+            <p class="p-little">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum totam sequi voluptatem itaque! Obcaecati nihil consectetur dignissimos. Laborum iusto nam reprehenderit deserunt unde nesciunt doloribus voluptate, quis eaque blanditiis?</p>
+
+
+            <div class="container-card">
+                <div class="card">
+                    <ion-icon name="planet-outline"></ion-icon>
+                    <h3>App Development</h3>
+                    <p class="p-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum totam sequi voluptatem itaque! Obcaecati nihil consectetur dignissimos. Laborum iusto nam reprehenderit deserunt unde nesciunt doloribus voluptate, quis eaque blanditiis?</p>
+                </div>
+                <ion-icon name="add-outline" class="add"></ion-icon>
+                <div class="card">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                    <h3>Web Development</h3>
+                    <p class="p-card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus voluptatum totam sequi voluptatem itaque! Obcaecati nihil consectetur dignissimos. Laborum iusto nam reprehenderit deserunt unde nesciunt doloribus voluptate, quis eaque blanditiis?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills"></section>
+
+    </main>
 
 
 
     <script src="js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
 </body>
 </html>
